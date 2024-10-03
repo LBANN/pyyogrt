@@ -1,0 +1,13 @@
+# Emacs stuff
+*~
+\#*\#
+
+# Python stuff
+/build/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info
+
+# Dev stuff
+pyrightconfig.json

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "cffi>=1.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yogrt"
+version = "0.0.1"
+description = "Python bindings to libyogrt"
+authors = [
+    {name = "Nikoli Dryden", email = "dryden1@llnl.gov"},
+]
+readme = "README.md"
+license = {text = "Apache-2.0"}
+dependencies = [
+    "cffi>=1.0.0"
+]
+requires-python = ">=3.9"
